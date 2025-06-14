@@ -1,0 +1,175 @@
+/* Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #121629;
+  color: white;
+  line-height: 1.6;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+main section:first-child {
+  background: url('./images/hero.png') center/cover no-repeat;
+  text-align: center;
+  padding: 5rem 2rem;
+  position: relative;
+}
+
+main section:first-child h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+main section:first-child span {
+  margin: 0 0.5rem;
+  font-weight: 600;
+  color: #a8a8a8;
+}
+
+main section:first-child button {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: #c271ff;
+  color: white;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+main h2 {
+  text-align: center;
+  margin: 4rem 0 2rem;
+  color: #c271ff;
+}
+
+/* Profile cards */
+main section:nth-of-type(1) > div:nth-of-type(2) {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+main section:nth-of-type(1) img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+main section:nth-of-type(1) h3 {
+  margin-top: 0.5rem;
+}
+
+/* Testimonial */
+main section:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  background-color: #c271ff;
+  color: white;
+}
+
+main section:nth-of-type(2) img {
+  max-width: 300px;
+  border-radius: 20px;
+}
+
+/* Popular Tutorials */
+main section:nth-of-type(3) {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 3rem 2rem;
+}
+
+main section:nth-of-type(3) > div {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+main section:nth-of-type(3) img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+main section:nth-of-type(3) .fa-star {
+  color: #c271ff;
+}
+
+/* Membership */
+main section:nth-of-type(4) {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #121629;
+}
+
+main section:nth-of-type(4) > div {
+  display: inline-block;
+  width: 200px;
+  margin: 1rem;
+}
+
+main section:nth-of-type(4) button {
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: #c271ff;
+  color: white;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* FAQ */
+main section:nth-of-type(5) {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  color: #333;
+}
+
+main section:nth-of-type(5) h3 {
+  color: #c271ff;
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer i {
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+}
